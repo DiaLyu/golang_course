@@ -107,12 +107,16 @@ go test -v -race
 --- PASS: TestServerStartStop (0.05s)
 === RUN   TestServerLeak
 --- PASS: TestServerLeak (1.22s)
+=== RUN   TestACLParseError
+--- PASS: TestACLParseError (0.00s)
 === RUN   TestACL
 --- PASS: TestACL (0.05s)
 === RUN   TestLogging
 --- PASS: TestLogging (0.05s)
 === RUN   TestStat
 --- PASS: TestStat (4.26s)
+=== RUN   TestWorkAfterDisconnect
+--- PASS: TestWorkAfterDisconnect (0.30s)
 PASS
 ok      coursera/hw7_microservice       6.972s
 
